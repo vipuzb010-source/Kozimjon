@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ro`yxatdan o`tish</title>
+</head>
+<body>
+    <H1>Konferensiyaga ro`yxatdan o`tish </H1>
+    <form action="backend.py">
+        <label for="ism">Ism:</label>
+        <input type="text" id="ism" placeholder="ismingizni kiriting" >
+        <br>
+        <br>
+        <label for="Familiya">Familiya:</label>
+        <input type="text" id="familiya " placeholder="familiyangizni kiriting">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="email@example.com">
+        <br>
+        <br>
+        <label for="parol">Parol:</label>
+        <input type="password" id="parol" placeholder="Parol kiriting" minlength="8" maxlength="16">
+        <br>
+        <br>
+        <label for="age">Yosh toifasi :</label>
+        <br>
+        <input type="radio" id="18 yoshgacha " name="age">
+        <label for="18 yoshgacha">18 yoshgacha</label>
+   
+        <br>
+        <input type="radio" id="18 yoshdan katta" name="age">
+        <label for="18 yoshdan katta ">18 yoshdan katta</label>
+         <br>
+         <br>
+        <label for="yosh">Qiziqish sohalari:</label>
+        <br>
+         <input type="checkbox" id="Dasturlash">
+         <label for="Dasturlash">Dasturlash</label>
+         <br>
+         <input type="checkbox" id="Dizayn">
+         <label for="Dizayn">Dizayn</label>
+         <br>
+         <input type="checkbox" id="Marketing">
+         <label for="Marketing">Marketing</label>
+         <br>
+         <input type="checkbox" id="boshqa">
+         <label for="boshqa">Boshqa</label>
+         <br>
+         <br>
+         <label for="tel">Telefon raqami:</label>
+         <input type="tel" id="tel" placeholder="90-123-45-67"> 
+         <br>
+         <br>
+         <label for="sana">Tug`ilgan sana: </label>
+         <input type="date" id="sana" >
+         <br>
+         <br>
+         <label for="soni">Necha kishi bilan kelasiz: </label>
+         <input type="number" id="soni" min="1" max="50">
+         <br>
+         <br>
+         <label for="izoh">Qoshimcha izoh:</label>
+         <br>
+         <textarea name="izoh" id="izoh" rows="4" cols="50" placeholder="Savol yoki istaklaringiz..."></textarea>
+         <br>
+         <br>
+         <label for="turi">Tarif turi :</label>
+         <select name="" id="turi">
+            <option value="Standard">Standard</option>
+            <option value="kamfort">Kamfort</option>
+            <option value="biznes">Biznes</option>
+            <option value="vip">VIP</option>
+    
+         </select>
+           <br>
+            <br>
+            <input type="reset">
+            <input type="submit">
+
+
+       </form>
+
+</body>
+</html>

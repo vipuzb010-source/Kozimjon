@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Ro`yxatdan o`tish formasi</h1>
+    <form action="Imtihon.html">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <br>
+        <label for="Email">Email</label>
+        <input type="email" id="Email" placeholder="Email @gmail.com" required>
+        <br>
+        <label for="Password">Password</label>
+        <input type="password" id="Password" placeholder="Enter your password" minlength="6" required>
+        <br>
+        <label for="City">City</label>
+        <select name="City" id="City">
+            <option value="Toshkent">Toshkent</option>
+            <option value="Samarqand">Samarqand</option>
+            <option value="Buxoro">Buxoro</option>
+            <option value="Namangan">Namangan</option>
+        </select>
+        <br>
+        <label for="Gender">Gender</label>
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="Gender">
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="Gender">
+        <br>
+        <label for="Rozilik">Rozilik</label>
+        <input type="checkbox" id="Rozilik">
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
